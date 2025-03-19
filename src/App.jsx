@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import HersoSection from './components/HersoSection'
 import Navbar from './components/Navbar'
 
@@ -8,6 +9,7 @@ function App() {
    <div>
     <Navbar />
     <HersoSection />
+    <About />
    </div>
   )
 }
