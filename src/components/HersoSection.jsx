@@ -14,9 +14,11 @@ const HeroSection = () => {
           I am <span className="font-semibold text-2xl text-gray-950">Aarish Ayaz</span>, a passionate 
           <span className="text-blue-600 text-2xl"> Web Developer</span> crafting modern experiences.
         </p>
-        <button className="mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
+        <a  href="#projects"
+        className="mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
+         
           View My Work
-        </button>
+        </a>
       </div>
 
       {/* Right Side - Image */}

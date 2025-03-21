@@ -6,8 +6,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full  shadow-md dark:bg-gray-900 z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 w-full shadow-md bg-gradient-to-r from-[#274046] to-[#E6DADA] z-50">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"> 
         
         {/* Logo */}
         <a href="/" className="text-4xl mr- font-bold text-gray-800 dark:text-white">

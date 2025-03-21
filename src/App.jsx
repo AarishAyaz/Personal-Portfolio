@@ -2,6 +2,8 @@ import './App.css'
 import About from './components/About'
 import HersoSection from './components/HersoSection'
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
+import SkillsSection from './components/Skills'
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
     <Navbar />
     <HersoSection />
     <About />
+    <Projects />
+    <SkillsSection />
    </div>
   )
 }
