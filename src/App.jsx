@@ -4,6 +4,7 @@ import HersoSection from './components/HersoSection'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import SkillsSection from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <About />
     <Projects />
     <SkillsSection />
+    <Contact />
    </div>
   )
 }
