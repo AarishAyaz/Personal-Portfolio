@@ -10,6 +10,14 @@ import Netflix2 from "../assets/Netflix-2.png";
 import Netflix3 from "../assets/Netflix-3.png";
 import Netflix4 from "../assets/Netflix-4.png";
 import { motion } from "framer-motion";
+import AMS1 from "../assets/AMS-1.png";
+import AMS2 from "../assets/AMS-2.png";
+import AMS3 from "../assets/AMS-3.png";
+import AMS4 from "../assets/AMS-4.png";
+import AMS5 from "../assets/AMS-5.png";
+import AMS6 from "../assets/AMS-6.png";
+import AMS7 from "../assets/AMS-7.png";
+import AMS8 from "../assets/AMS-8.png";
 
 // Icons
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs } from "react-icons/fa";
@@ -27,12 +35,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "A modern personal portfolio showcasing my skills & projects. Built with React and Tailwind CSS featuring responsive design, dark mode, and smooth animations.",
-    images: ["/assets/portfolio-1.jpg", "/assets/portfolio-2.jpg", "/assets/portfolio-3.jpg"],
+    title: "Attendance Management System",
+    description: "The Attendance Management System is a web-based application developed using PHP and Bootstrap to streamline the process of tracking and managing student attendance within an academic environment. The system is designed to offer a user-friendly interface for both administrators and students, ensuring efficient management of attendance records.",
+    images: [AMS1,AMS2,AMS3,AMS4,AMS5,AMS6,AMS7,AMS8],
     link: "https://your-portfolio.com",
-    github: "https://github.com/yourusername/portfolio",
-    technologies: ["react", "tailwind", "framer-motion"]
+    github: "https://github.com/AarishAyaz/Attendance_management-system.git",
+    technologies: ["HTML5, CSS3, JavaScript, Bootstrap", "PHP", "MySQL"]
   },
   {
     id: 3,
