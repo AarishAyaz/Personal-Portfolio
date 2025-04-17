@@ -18,6 +18,11 @@ import AMS5 from "../assets/AMS-5.png";
 import AMS6 from "../assets/AMS-6.png";
 import AMS7 from "../assets/AMS-7.png";
 import AMS8 from "../assets/AMS-8.png";
+import E1 from "../assets/E-1.png";
+import E2 from "../assets/E-2.png";
+import E3 from "../assets/E-3.png";
+import E4 from "../assets/E-4.png";
+import E5 from "../assets/E-5.png";
 
 // Icons
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs, FaJs, FaPhp, FaBootstrap } from "react-icons/fa";
@@ -44,12 +49,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Chat Application",
-    description: "Real-time chat app using React, Node.js, Socket.io & MongoDB. Features include user authentication, private messaging, group chats, and file sharing capabilities.",
-    images: ["/assets/chatapp-1.jpg", "/assets/chatapp-2.jpg", "/assets/chatapp-3.jpg"],
-    link: "https://your-chatapp.com",
-    github: "https://github.com/yourusername/chat-app",
-    technologies: ["react", "node", "mongodb", "express"]
+    title: "Evolve Solutions",
+    description:"Evolve Solutions transforms businesses with expert technology consulting and custom development services. We specialize in software solutions, cloud migration, and data analytics that drive innovation and help organizations reach their full potential.",
+    images: [E1, E2,E3,E4,E5],
+    link: "https://your-chatapp.comhttps://evolve-solutions.vercel.app/",
+    github: "https://github.com/AarishAyaz/Evolve-Solutions.git",
+    technologies: ["react", "tailwind"]
   },
 ];
 
