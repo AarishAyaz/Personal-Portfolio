@@ -12,7 +12,7 @@ const Home = () => {
         </h1>
         <p className="text-lg text-gray-700 dark:text-gray-300">
           I am <span className="font-semibold text-2xl text-gray-950">Aarish Ayaz</span>, a passionate 
-          <span className="text-blue-600 text-2xl font-extrabold"> Web Developer</span> crafting modern experiences.
+          <span className="text-blue-600 text-2xl font-extrabold"> Web Developer</span> crafting modern experiences based in <span className="font-extrabold text-2xl">Pakistan</span>.
         </p>
         <a  href="#projects" 
         className="mt-4 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
