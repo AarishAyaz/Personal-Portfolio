@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Link } from 'react-router-dom';
-=======
-import React from 'react';
->>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
 import Aarish from '../assets/Aarish.jpg';
 
 const Home = () => {
@@ -19,26 +15,23 @@ const Home = () => {
           <span className="text-blue-600 text-2xl font-extrabold"> Web Developer</span> crafting modern experiences based in <span className="font-extrabold text-2xl">Pakistan</span>.
         </p>
         <a  href="#projects" 
-        className="mt-4 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
+        className="mt-5 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
          
           View My Work
         </a>
-<<<<<<< HEAD
         <Link 
          to="/Coverletter"
-        className="mt-4 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
+        className="mt-5 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
          
           View Cover Letter
         </Link>
          <a  href="/CV.pdf" 
          target='_blank'
          rel='noopener norefferer'
-        className="mt-4 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
+        className="mt-5 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
          
-          CV
+          Resume
         </a>
-=======
->>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
       </div>
 
       {/* Right Side - Image */}
