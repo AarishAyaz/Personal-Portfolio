@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+    background: #E6DADA; /* Fallback */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);
+    background: linear-gradient(to right, #274046, #E6DADA);
+    min-height: 100vh; /* Ensures full page coverage */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Optional: Ensure Text is Readable */
+h1, p, a {
+    color: #1a1a1a; /* Dark color for contrast */
+}
