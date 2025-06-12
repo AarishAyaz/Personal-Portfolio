@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import  { useState, useRef } from "react";
+=======
+import React, { useState, useRef } from "react";
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
 import { Mail, User, MessageCircle, Send, Phone, MapPin } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
@@ -22,6 +26,7 @@ const Contact = () => {
     }));
   };
 
+<<<<<<< HEAD
  const handleSubmit = async (e) => {
   e.preventDefault();
   setIsSubmitting(true);
@@ -57,6 +62,46 @@ const Contact = () => {
   }
 };
 
+=======
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      // Simulate API call
+      const response = await emailjs
+        .sendForm(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          form.current,
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        )
+        .then((result) => {
+          console.log("SUCCESS!", result.text);
+          form.current.reset();
+        });
+
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      console.log("Form submitted:", formData);
+      setSubmitStatus("success");
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+      // Reset status after 5 seconds
+      setTimeout(() => setSubmitStatus(null), 5000);
+    }
+  };
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
 
   return (
     <section id="contact" className="section mx-auto px-4 py-16">
@@ -181,7 +226,11 @@ const Contact = () => {
                   </svg>
                 </a> */}
                 <a
+<<<<<<< HEAD
                   href="https://wa.me/923023739939"
+=======
+                  href="https://wa.me/03023739939"
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-green-600 hover:text-white transition duration-300"

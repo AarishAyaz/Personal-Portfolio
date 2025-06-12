@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+import React from 'react';
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
 import Aarish from '../assets/Aarish.jpg';
 
 const Home = () => {
@@ -19,6 +23,7 @@ const Home = () => {
          
           View My Work
         </a>
+<<<<<<< HEAD
         <Link 
          to="/Coverletter"
         className="mt-4 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
@@ -32,6 +37,8 @@ const Home = () => {
          
           CV
         </a>
+=======
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
       </div>
 
       {/* Right Side - Image */}

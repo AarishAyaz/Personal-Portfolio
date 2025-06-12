@@ -89,7 +89,11 @@ const Projects = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   return (
+<<<<<<< HEAD
     <section id="projects" className="py-16 px-4 sm:px-6 lg:px-8  flex justify-center items-center h-screen">
+=======
+    <section id="projects" className="py-16 px-4 sm:px-6 lg:px-8 dark:from-gray-900 dark:to-gray-800 flex justify-center items-center h-screen">
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16"
@@ -98,11 +102,19 @@ const Projects = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
+<<<<<<< HEAD
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900  mb-4">
             Featured Projects
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-600 ">
+=======
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+            Featured Projects
+          </h2>
+          <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+          <p className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-300">
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
             Explore some of my recent work showcasing my skills and expertise in web development
           </p>
         </motion.div>
@@ -111,7 +123,11 @@ const Projects = () => {
           {projects.map((project) => (
             <motion.div
               key={project.id}
+<<<<<<< HEAD
               className="relative bg-gray-500 rounded-xl shadow-xl overflow-hidden group"
+=======
+              className="relative bg-gray-500 dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden group"
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -168,7 +184,11 @@ const Projects = () => {
 
               {/* Project Details */}
               <div className="p-6">
+<<<<<<< HEAD
                 <h3 className="text-2xl font-bold text-gray-900  mb-2">{project.title}</h3>
+=======
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{project.title}</h3>
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                 
                 {/* Tech stack icons */}
                 <div className="flex gap-3 mb-3">
@@ -179,7 +199,11 @@ const Projects = () => {
                   ))}
                 </div>
                 
+<<<<<<< HEAD
                 <p className="text-gray-700  mb-4 line-clamp-3">{project.description}</p>
+=======
+                <p className="text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">{project.description}</p>
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                 
                 <div className="flex justify-between items-center">
                   <a

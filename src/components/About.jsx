@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from "react";
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
 import { motion } from "framer-motion";
 import { FaLaptopCode, FaServer, FaDatabase, FaTools } from "react-icons/fa";
 
@@ -24,7 +28,11 @@ const About = () => {
   };
 
   return (
+<<<<<<< HEAD
     <section id="about" className="py-20 px-6 md:px-8  ">
+=======
+    <section id="about" className="py-20 px-6 md:px-8  dark:from-gray-900 dark:to-gray-800">
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -33,11 +41,19 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
+<<<<<<< HEAD
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900  mb-4">
             About Me
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 -w-3xl mx-auto">
+=======
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
+            About Me
+          </h2>
+          <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
             Passionate MERN stack developer specializing in creating seamless web experiences
           </p>
         </motion.div>
@@ -49,6 +65,7 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
+<<<<<<< HEAD
             className="bg-gray-500  rounded-xl shadow-lg p-8"
           >
             <motion.h3 
@@ -57,13 +74,29 @@ const About = () => {
             >
               <span className="w-10 h-10 rounded-full bg-blue-100  flex items-center justify-center mr-3">
                 <FaLaptopCode className="text-blue-600 " />
+=======
+            className="bg-gray-500 dark:bg-gray-800 rounded-xl shadow-lg p-8"
+          >
+            <motion.h3 
+              variants={itemVariants}
+              className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center"
+            >
+              <span className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mr-3">
+                <FaLaptopCode className="text-blue-600 dark:text-blue-400" />
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
               </span>
               Professional Background
             </motion.h3>
 
+<<<<<<< HEAD
             <div className="space-y-5 text-gray-700 ">
               <motion.p variants={itemVariants}>
                 I am a <span className="text-black  font-medium">MERN Stack Developer</span> with a Bachelor's degree in Computer Science,
+=======
+            <div className="space-y-5 text-gray-700 dark:text-gray-300">
+              <motion.p variants={itemVariants}>
+                I am a <span className="text-black dark:text-blue-400 font-medium">MERN Stack Developer</span> with a Bachelor's degree in Computer Science,
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                 specializing in designing and developing scalable, high-performance web applications.
               </motion.p>
               
@@ -86,6 +119,7 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
+<<<<<<< HEAD
             className="bg-gray-500 rounded-xl shadow-lg p-8"
           >
             <motion.h3 
@@ -94,14 +128,31 @@ const About = () => {
             >
               <span className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
                 <FaTools className="text-blue-600 " />
+=======
+            className="bg-gray-500 dark:bg-gray-800 rounded-xl shadow-lg p-8"
+          >
+            <motion.h3 
+              variants={itemVariants}
+              className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center"
+            >
+              <span className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mr-3">
+                <FaTools className="text-blue-600 dark:text-blue-400" />
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
               </span>
               My Approach
             </motion.h3>
 
+<<<<<<< HEAD
             <div className="space-y-5 text-gray-700 ">
               <motion.p variants={itemVariants}>
                 I approach each project with a focus on <span className="text-black  font-medium">user experience</span> and 
                 <span className="text-black  font-medium"> performance optimization</span>. Understanding the end-user's needs
+=======
+            <div className="space-y-5 text-gray-700 dark:text-gray-300">
+              <motion.p variants={itemVariants}>
+                I approach each project with a focus on <span className="text-black dark:text-blue-400 font-medium">user experience</span> and 
+                <span className="text-black dark:text-blue-400 font-medium"> performance optimization</span>. Understanding the end-user's needs
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                 is central to my development process.
               </motion.p>
               
@@ -128,7 +179,11 @@ const About = () => {
         >
           <motion.h3 
             variants={itemVariants}
+<<<<<<< HEAD
             className="text-2xl font-bold text-gray-900  mb-8 text-center"
+=======
+            className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center"
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
           >
             Core Competencies
           </motion.h3>
@@ -136,6 +191,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <motion.div 
               variants={itemVariants}
+<<<<<<< HEAD
               className="bg-gray-500  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="text-blue-600  text-xl mb-4">
@@ -157,6 +213,29 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600  mr-2">•</span>
+=======
+              className="bg-gray-500 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="text-blue-600 dark:text-blue-400 text-xl mb-4">
+                <FaLaptopCode className="text-3xl mb-2" />
+                <h4 className="font-bold text-gray-900 dark:text-white">Frontend Development</h4>
+              </div>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  React.js component architecture
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  State management with Redux
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  Responsive design with Tailwind & Bootstrap
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                   Modern JavaScript (ES6+)
                 </li>
               </ul>
@@ -164,6 +243,7 @@ const About = () => {
 
             <motion.div 
               variants={itemVariants}
+<<<<<<< HEAD
               className="bg-gray-500  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="text-blue-600  text-xl mb-4">
@@ -185,6 +265,29 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600  mr-2">•</span>
+=======
+              className="bg-gray-500 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="text-blue-600 dark:text-blue-400 text-xl mb-4">
+                <FaServer className="text-3xl mb-2" />
+                <h4 className="font-bold text-gray-900 dark:text-white">Backend Development</h4>
+              </div>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  Node.js & Express framework
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  RESTful API development
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  Authentication & authorization
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                   PHP application development
                 </li>
               </ul>
@@ -192,6 +295,7 @@ const About = () => {
 
             <motion.div 
               variants={itemVariants}
+<<<<<<< HEAD
               className="bg-gray-500  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="text-blue-600  text-xl mb-4">
@@ -213,6 +317,29 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
+=======
+              className="bg-gray-500 dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="text-blue-600 dark:text-blue-400 text-xl mb-4">
+                <FaDatabase className="text-3xl mb-2" />
+                <h4 className="font-bold text-gray-900 dark:text-white">Database & DevOps</h4>
+              </div>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  MongoDB database design
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  Docker containerization
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+                  Git version control & collaboration
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 dark:text-blue-400 mr-2">•</span>
+>>>>>>> 3fe04712260363ed39b7115c46aeda467ed31f58
                   CI/CD pipeline implementation
                 </li>
               </ul>
