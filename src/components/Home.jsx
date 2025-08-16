@@ -25,7 +25,7 @@ const Home = () => {
          
           View Cover Letter
         </Link>
-         <a  href="/CV.pdf" 
+         <a  href="/Resume.pdf" 
          target='_blank'
          rel='noopener norefferer'
         className="mt-5 ml-2 px-6 py-3 scroll-smooth bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all">
